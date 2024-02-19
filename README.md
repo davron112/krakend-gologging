@@ -6,7 +6,7 @@ An improved logger for the KrakenD framework
 
 Import the package
 
-	import "github.com/krakendio/krakend-gologging"
+	import "github.com/davron112/krakend-gologging"
 
 After parsing the config file (here `cfg`), call the logger factory with the extra config of the system
 
@@ -16,12 +16,12 @@ And the logger is ready to be injected
 
 ## Configuration
 
-Add the `github_com/devopsfaith/krakend-gologging` section to the service extra config.
+Add the `github_com/davron112/krakend-gologging` section to the service extra config.
 
 Example:
 
 	"extra": {
-		"github_com/devopsfaith/krakend-gologging": {
+		"github_com/davron112/krakend-gologging": {
 			"level":  "INFO",
 			"prefix": "[KRAKEND]",
 			"syslog": false,
